@@ -1,7 +1,7 @@
 PATH
   remote: ../everoute
   specs:
-    everoute (0.0.1)
+    everoute (0.0.2)
       mechanize
       nokogiri
 

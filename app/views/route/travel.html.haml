@@ -1,7 +1,9 @@
-Route Travel
+Find Tradehubs (enter any system and get the # of jumps to all tradehubs)
 
 = form_tag ('/travel') do
-  = text_field_tag 'System'
+  = label_tag 'Only hisec?'
+  = check_box_tag 'hisec'
+  %p= text_field_tag 'System'
   = button_tag
 
 = @route if @route
