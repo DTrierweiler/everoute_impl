@@ -8,7 +8,8 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 
 # Everoute
-gem 'everoute', :git => 'git://github.com/DTrierweiler/everoute.git'
+#gem 'everoute', :git => 'git://github.com/DTrierweiler/everoute.git'
+gem 'everoute', :path => '../everoute'
 
 gem 'haml'
 

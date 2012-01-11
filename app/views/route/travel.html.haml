@@ -6,4 +6,5 @@ Find Tradehubs (enter any systems name and get the # of jumps to all tradehubs)
   %p= text_field_tag 'System'
   = button_tag 'Travel!'
 
-= @route if @route
+= @pretty_route if @pretty_route
+= h clippy(@output)

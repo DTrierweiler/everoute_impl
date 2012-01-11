@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/DTrierweiler/everoute.git
-  revision: 1fc0e2127ff7507d83720c0cbfff64d747f5e15c
+PATH
+  remote: ../everoute
   specs:
     everoute (0.1.0)
       mechanize
