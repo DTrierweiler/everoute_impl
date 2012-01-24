@@ -1,11 +1,13 @@
 Find Tradehubs (enter any systems name and get the # of jumps to all tradehubs)
 
 = form_tag ('/travel') do
-  = label_tag 'Only hisec?'
-  = check_box_tag 'hisec'
-  %p= text_field_tag 'System'
+  = #hidden_field_tag :system, params[:system]
+  Only hisec?
+  = check_box_tag 'hisec', "1", true
+  %p= text_field_tag 'system', params[:system]
   = button_tag 'Travel!'
 
 - if @pretty_route
+  %br/
   = @pretty_route
   = clippy(@route).html_safe
