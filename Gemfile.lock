@@ -1,5 +1,6 @@
-PATH
-  remote: ../everoute
+GIT
+  remote: git://github.com/DTrierweiler/everoute.git
+  revision: da8e25808e8aa80dbb3ce08bc2954603f8c2c013
   specs:
     everoute (0.1.0)
       mechanize
@@ -46,7 +47,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
-    domain_name (0.5.1)
+    domain_name (0.5.2)
       unf (~> 0.0.3)
     erubis (2.7.0)
     execjs (1.2.13)
@@ -128,8 +129,7 @@ GEM
     unf (0.0.4)
       unf_ext
     unf_ext (0.0.4)
-    webrobots (0.0.12)
-      nokogiri (>= 1.4.4)
+    webrobots (0.0.13)
 
 PLATFORMS
   ruby
